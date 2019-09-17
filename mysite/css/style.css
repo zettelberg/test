@@ -1,0 +1,29 @@
+tei-title {
+   color: red;
+   text-align: center;
+}
+tei-head {
+
+   color: gold;
+   background-color: red;
+   text-align: center;
+
+}
+
+tei-head:before {
+
+   content: attr(no) ". ---[";
+   color: blue;
+
+}
+tei-head:after {
+
+   content: "]---"
+
+}
+tei-seg[rend="dropInit"] {
+   font-size: 300%;
+   float: left;
+   line-height: 1em;
+   padding-right: 10px;
+}

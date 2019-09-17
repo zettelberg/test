@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv27085">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tiberianus to Longinus Priscus</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">27085</idno>
+            <idno type="TM">27085</idno>
+            <idno type="ddb-perseus-style">0002;;147</idno>
+            <idno type="ddb-filename">c.ep.lat.147</idno>
+            <idno type="ddb-hybrid">c.ep.lat;;147</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Alexandria</origPlace>
+                     <origDate notBefore="0101" notAfter="0125" precision="low">frühes II</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="http://pleiades.stoa.org/places/727070 http://www.trismegistos.org/place/100">Alexandria</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (privat)</term>
+               <term>Tiberianus an Longinus Priscus</term>
+               <term>Kauf</term>
+               <term>Senden von Briefen</term>
+               <term>frumentarius</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1992-05-22">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Lateinisch. Gehört zum Tiberianus - Archiv. Neuedition: Strassi, L’archivio di Claudius Tiberianus, 7 (S. 35-37); zur Datierung vgl. ebenda, S. 79-97. Vgl. Britannia 42, 2011, S. 151-155.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Mich.</title>
+                  <biblScope type="volume">8</biblScope>
+                  <biblScope type="numbers">472</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">215</biblScope>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">124</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Plate III (nur recto)</bibl>
+               <bibl type="illustration">Cugusi, CEL, Tav. XIII (nur recto)</bibl>
+               <bibl type="illustration">ChLA XLII, S. 45 (recto) und S. 46 (verso)</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikationen</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">ChLA XLII 1219</bibl>
+               <bibl type="publication" subtype="other">CPL 255</bibl>
+               <bibl type="publication" subtype="other">CEL I 147</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="it">
+               <head xml:lang="de">Italienisch:</head>
+               <bibl type="translations">Strassi, L’archivio di Claudius Tiberianus (2008), S. 36f.</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://quod.lib.umich.edu/a/apis/x-2446"/>
+               </figure>
+               <figure>
+                  <graphic url="http://ipap.csad.ox.ac.uk/4DLink4/4DACTION/IPAPwebquery?vPub=P.Mich.&amp;vVol=8&amp;vNum=472"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

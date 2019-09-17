@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Herbsttag</title>
+            <author>Rainer Maria Rilke</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>For training purposes.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Unknown.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>Herbsttag</head>
+            
+            <lg>
+               <l>Herr: Es ist Zeit. Der Sommer war sehr groß.</l>
+               <l>Leg deinen Schatten auf die Sonnenuhren,</l>
+               <l>und auf den Fluren laß die Winde los.</l>
+            </lg>           
+            
+            <lg>
+               <l>Befiehl den letzten Früchten voll zu sein;</l>
+               <l>gieb ihnen noch zwei südlichere Tage,</l>
+               <l>dränge sie zur Vollendung hin und jage</l>
+               <l>die letzte Süße in den schweren Wein.</l>
+            </lg>
+            
+            <lg>
+               <l>Wer jetzt kein Haus hat, baut sich keines mehr.</l>
+               <l>Wer jetzt allein ist, wird es lange bleiben,</l>
+               <l>wird wachen, lesen, lange Briefe schreiben</l>
+               <l>und wird in den Aleen hin und her</l>
+               <l>unruhig wandern, wenn die Blätter treiben</l>
+            </lg>
+            
+         </div>
+      </body>
+  </text>
+</TEI>
